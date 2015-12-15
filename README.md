@@ -1,10 +1,8 @@
+<snippet>
 # proxy_sparkjava_kafka
 Proyecto Java, API que hace de proxy para alimentar un Kafka, con peticiones desde JMeter.
 
-<snippet>
-  <content><![CDATA[
-# ${1:Project Name}
-Proyecto Java, API que hace de proxy para alimentar un Kafka, con peticiones desde JMeter.
+<content>
 ## Instalación
 En la carpeta de recursos, se encuentran los materiales extra necesarios:
 
@@ -38,6 +36,5 @@ Me hacía falta en el curro y ya que lo hice pues... aquí está
 
 ## Licencia
 Licencia Apache 2.0
-]]></content>
-  <tabTrigger>readme</tabTrigger>
+</content>
 </snippet>
