@@ -1,12 +1,55 @@
+###############
+Compiled source
+###############
 *.class
+.classpath
+.settings
+.project
+hs_err_pid*
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+###############
+# Package Files
+###############
 *.jar
-*.war
-*.ear
 
+#########
+# target
+########
+target/
+webapps/
+####################
+# Logs and databases
+####################
+*.log
+
+################
+# Vagrant
+################
+.vagrant
+
+###########################
+# Ficheros que crea eclipse
+###########################
+.metadata
+/Server
+Servers/
+
+###########################
+# PMD
+###########################
+.pmd
+
+###########################
+# Edited files
+###########################
+*~
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+
+###########################
+# IntelliJ Metadata Files
+###########################
+/.idea
+/target
+*.iml
