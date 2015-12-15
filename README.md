@@ -14,10 +14,11 @@ En la carpeta de recursos, se encuentran los materiales extra necesarios:
 ## Uso
 El stack se compone por un lado de JMeter como fuente origen de los eventos y llamadas al API y Kafka para guardarlos en una cola. Entre éstos dos componentes se encuentra un API que simplemente hará de pasarela del mensaje, utilizando el API de Kafka para generar un productor que alimentará la cola de Kafka.
 Para trabajar con el stack tenemos que hacer lo siguiente:
-1. Arrancar ZooKeeper: En la carpeta de recursos, dentro del directorio de Kafka, en la versión que decidamos, ejecutar `./bin/zookeeper-server-start.sh config/zookeeper.properties`.
-2. Arrancar Kafka: En la carpeta de recursos, dentro del directorio de Kafka, en la versión que decidamos, ejecutar `./bin/kafka-server-start.sh config/server.properties`.
-3. Ejecutar el proyecto (Jetty Runner)
-4. Realizar llamadas al API, por ejemplo: (POST)`http://{{host}}:8080/proxy_sparkjava_kafka/sendTestData/topicPruebas` con el mensaje en el body.
+
+1. Arrancar ZooKeeper: En la carpeta de recursos, dentro del directorio de Kafka, en la versión que decidamos, ejecutar `./bin/zookeeper-server-start.sh config/zookeeper.properties` .
+2. Arrancar Kafka: En la carpeta de recursos, dentro del directorio de Kafka, en la versión que decidamos, ejecutar `./bin/kafka-server-start.sh config/server.properties` .
+3. Ejecutar el proyecto (Jetty Runner) .
+4. Realizar llamadas al API, por ejemplo: (POST)`http://{{host}}:8080/proxy_sparkjava_kafka/sendTestData/topicPruebas` con el mensaje en el body .
 
 ## Contibuye
 1. Forkealo !
