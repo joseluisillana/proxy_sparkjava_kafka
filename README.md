@@ -20,6 +20,12 @@ Para trabajar con el stack tenemos que hacer lo siguiente:
 3. Ejecutar el proyecto (Jetty Runner) .
 4. Realizar llamadas al API, por ejemplo: (POST)`http://{{host}}:8080/proxy_sparkjava_kafka/sendTestData/topicPruebas` con el mensaje en el body .
 
+## Probar un consumidor 'clean and dirty' del topic
+
+Para hacer pruebas, podemos lanzar un consumidor de ejemplo ya incluido en la instalación de Kafka.
+
+Desde el directorio de instalación de Kafka de la carpeta de recursos ejecutar: `./bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic topicPruebas` .
+
 ## Contibuye
 1. Forkealo !
 2. Crea tu propio branch: `git checkout -b my-new-feature`
